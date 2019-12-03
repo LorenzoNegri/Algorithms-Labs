@@ -19,3 +19,10 @@ avg <- function(S) {
   result = x/i
   return(result)
 }
+
+# Simple and short away of the Average function
+avg__ <- function(S) {
+  # function to compute the average of volues of an array S
+  result = sum(S)/length(S)
+  return(result)
+}
